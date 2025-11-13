@@ -1,0 +1,153 @@
+
+body{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+.navegacion, .menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0px 0px;
+    box-sizing: content-box;
+    height: 60px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900px;
+}
+
+.menu {
+    list-style-type: none; 
+    gap: 18px;
+}
+.presentacion{
+    display: flex;
+    width: 1050px;
+    margin: 100px auto;
+}
+.fotolocal {
+    width: 500px;
+    height: auto;
+}
+.texto_presentacion{
+    padding: 0px 40px;
+    margin: auto 0px;
+}
+h1, p, button {
+    margin: 0;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900px;
+}
+button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 24px;
+    width: auto;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.informacion, .mensaje {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    flex-direction: column;;
+    color: #1f2937
+}
+h2{
+    font-size: 45px;
+}
+
+.menu_carta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+.fotomenu{
+    height: 240px;
+    width: 240px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 250px;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    color: #76787a;
+}
+
+.recordatorio{
+    background-color: #e5e7eb;
+    width: auto;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+strong{
+    text-align: end;
+    color: #1f2937;
+    font-size: 24px;
+}
+
+.dedicatoria{
+    font-size: 36px;
+    color: #484849;
+    font-style: italic;
+    font-family: system-ui;
+    width: 800px;
+    gap: 10px;
+    margin: 110px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.menssage{
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    color: #f9faf8;
+    padding: 50px 120px;
+    margin: 120px 0px;
+    gap: 200px;
+}
+.titulo{
+    font-weight: 900;
+    font-size: 32px;
+}
+.registro{
+    border: 3px solid #e5e7eb;
+}
+
+.pertenencia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 20px;
+    color: #d8dadc;
+}
